@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>FT‑20 Live</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>FT‑20 | Live Stream & Score</h1></header>
+
+  <main class="grid">
+    <!-- 📺 YouTube Live -->
+    <section id="video">
+      <!-- Replace liveVideoId with your YouTube Live ID -->
+      <iframe
+        src="https://www.youtube.com/embed/liveVideoId?autoplay=1"
+        allowfullscreen
+        allow="autoplay; encrypted-media"
+      ></iframe>
+    </section>
+
+    <!-- 🏏 Scoreboard -->
+    <aside id="scorebox">
+      <h2>Scorecard</h2>
+      <div id="score"></div>
+      <p id="updated"></p>
+    </aside>
+  </main>
+
+  <script src="main.js" type="module"></script>
+</body>
+</html>
